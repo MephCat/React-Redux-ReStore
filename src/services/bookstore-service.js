@@ -1,19 +1,16 @@
 
 export default class BookstoreService {
 
-    getBooks (){
+    getBooks() {
         return [
             {
                 id: 1,
                 title: 'Production-Ready Microservices',
-                author: 'Susan Fowler'
-            },
+                author: 'Susan J. Fowler' },
             {
                 id: 2,
                 title: 'Release It!',
-                author: 'Michael Nygard'
-            },
-
+                author: 'Michael T. Nygard'}
         ];
     }
 
